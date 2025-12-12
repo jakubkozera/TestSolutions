@@ -1,4 +1,4 @@
-﻿namespace NUnit.MTP.FixtureTests;
+﻿namespace NUnit.FixtureTests;
 
 public class Tests
 {

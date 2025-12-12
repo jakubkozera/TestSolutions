@@ -1,4 +1,4 @@
-﻿namespace MSTest.MTP.DataDrivenTests;
+﻿namespace MSTest.DataDrivenTests;
 
 [TestClass]
 public sealed class Test1

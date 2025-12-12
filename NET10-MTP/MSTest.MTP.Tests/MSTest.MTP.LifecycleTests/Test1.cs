@@ -1,4 +1,4 @@
-﻿namespace MSTest.MTP.LifecycleTests;
+﻿namespace MSTest.LifecycleTests;
 
 [TestClass]
 public sealed class Test1

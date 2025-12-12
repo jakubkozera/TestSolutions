@@ -1,4 +1,4 @@
-﻿namespace XUnit.MTP.TraitTests;
+﻿namespace XUnit.TraitTests;
 
 public class UnitTest1
 {

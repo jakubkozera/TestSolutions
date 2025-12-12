@@ -1,4 +1,4 @@
-﻿namespace NUnit.MTP.ParameterizedTests;
+﻿namespace NUnit.ParameterizedTests;
 
 public class Tests
 {

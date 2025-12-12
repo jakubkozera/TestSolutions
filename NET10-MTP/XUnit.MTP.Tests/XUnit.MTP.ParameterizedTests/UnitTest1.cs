@@ -1,4 +1,4 @@
-﻿namespace XUnit.MTP.ParameterizedTests;
+﻿namespace XUnit.ParameterizedTests;
 
 public class UnitTest1
 {

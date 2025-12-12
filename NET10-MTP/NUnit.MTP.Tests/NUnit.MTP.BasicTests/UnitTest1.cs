@@ -1,4 +1,4 @@
-﻿namespace NUnit.MTP.BasicTests;
+﻿namespace NUnit.BasicTests;
 
 public class Tests
 {

@@ -1,4 +1,4 @@
-﻿namespace MSTest.MTP.BasicTests;
+﻿namespace MSTest.BasicTests;
 
 [TestClass]
 public sealed class Test1

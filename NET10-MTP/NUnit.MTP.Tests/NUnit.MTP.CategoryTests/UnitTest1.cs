@@ -1,4 +1,4 @@
-﻿namespace NUnit.MTP.CategoryTests;
+﻿namespace NUnit.CategoryTests;
 
 public class Tests
 {

@@ -1,0 +1,16 @@
+{
+    "sdk": {
+        "version": "10.0.100",
+        "rollForward": "latestFeature",
+        "allowPrerelease": true
+    },
+    "msbuild-sdks": {
+        "MSBuild.Sdk.Extras": "3.0.44"
+    },
+    "test": {
+        "runner": "Microsoft.Testing.Platform"
+    },
+    "comments": {
+        "note": "This workspace uses .NET 10 preview with Microsoft.Testing.Platform (MTP) for modern test execution"
+    }
+}

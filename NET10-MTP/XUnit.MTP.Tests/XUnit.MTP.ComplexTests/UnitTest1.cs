@@ -1,4 +1,4 @@
-﻿namespace XUnit.MTP.ComplexTests;
+﻿namespace XUnit.ComplexTests;
 
 public class UnitTest1
 {
