@@ -48,7 +48,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task Filter_LargeList_ReturnsMatchingItems()
     {
-        await Task.Delay(6000);
+        await Task.Delay(5000);
         var list = Enumerable.Range(0, 10000).ToList();
         var filtered = list.Where(x => x % 2 == 0).ToList();
         Assert.Equal(5000, filtered.Count);
@@ -57,7 +57,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task GroupBy_LargeDataset_GroupsCorrectly()
     {
-        await Task.Delay(7000);
+        await Task.Delay(5000);
         var data = Enumerable.Range(0, 10000).Select(x => new { Group = x % 10, Value = x }).ToList();
         var grouped = data.GroupBy(x => x.Group).ToList();
         Assert.Equal(10, grouped.Count);
@@ -66,7 +66,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task Join_LargeDatasets_ProducesResults()
     {
-        await Task.Delay(8000);
+        await Task.Delay(5000);
         var left = Enumerable.Range(0, 5000).Select(x => new { Id = x, Value = $"L{x}" }).ToList();
         var right = Enumerable.Range(0, 5000).Select(x => new { Id = x, Value = $"R{x}" }).ToList();
         var joined = left.Join(right, l => l.Id, r => r.Id, (l, r) => new { l.Id, l.Value, RValue = r.Value }).ToList();
@@ -84,7 +84,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task Distinct_LargeDatasetWithDuplicates_RemovesDuplicates()
     {
-        await Task.Delay(6000);
+        await Task.Delay(5000);
         var data = Enumerable.Range(0, 10000).Concat(Enumerable.Range(0, 10000)).ToList();
         var distinct = data.Distinct().ToList();
         Assert.Equal(10000, distinct.Count);
@@ -93,7 +93,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task OrderBy_MultipleKeys_SortsCorrectly()
     {
-        await Task.Delay(9000);
+        await Task.Delay(5000);
         var data = Enumerable.Range(0, 5000)
             .Select(x => new { Primary = x % 10, Secondary = x % 100, Value = x })
             .OrderBy(x => x.Primary)
@@ -105,7 +105,7 @@ public class LargeDatasetTests
     [Fact]
     public async Task SelectMany_NestedCollections_FlattensCorrectly()
     {
-        await Task.Delay(10000);
+        await Task.Delay(5000);
         var nested = Enumerable.Range(0, 100)
             .Select(x => Enumerable.Range(0, 100).ToList())
             .ToList();

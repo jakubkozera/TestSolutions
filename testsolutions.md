@@ -595,7 +595,7 @@ public async Task MediumTest()
 [Fact]
 public async Task LongTest()
 {
-    await Task.Delay(7000);
+    await Task.Delay(5000);
     Assert.True(true);
 }
 
@@ -603,7 +603,7 @@ public async Task LongTest()
 [Fact]
 public async Task VeryLongTest()
 {
-    await Task.Delay(20000);
+    await Task.Delay(5000);
     Assert.True(true);
 }
 ```
