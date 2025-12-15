@@ -25,7 +25,7 @@ public class ParameterizedTests
     [TestCase(0, 10, -10)]
     [TestCase(-10, -5, -5)]
     [TestCase(1000, 1, 999)]
-    [TestCase(25, 25, 0)]
+    [TestCase(25, 23, 0)]
     public void Subtract_VariousInputs_ReturnsCorrectDifference(int a, int b, int expected)
     {
         var result = a - b;

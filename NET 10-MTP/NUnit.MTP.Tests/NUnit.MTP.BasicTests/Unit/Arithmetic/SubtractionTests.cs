@@ -44,7 +44,7 @@ public class SubtractionTests
     [TestCase(10, 5, 5)]
     [TestCase(100, 50, 50)]
     [TestCase(0, 10, -10)]
-    [TestCase(-10, -5, -5)]
+    [TestCase(-10, -2, -5)]
     [TestCase(1000, 1, 999)]
     public void Subtract_VariousInputs_ReturnsCorrectDifference(int a, int b, int expected)
     {

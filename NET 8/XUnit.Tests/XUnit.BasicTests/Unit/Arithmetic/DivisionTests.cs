@@ -94,7 +94,7 @@ public class DivisionTests
     public void Divide_DecimalByZero_ThrowsException()
     {
         double zero = 0.0;
-        Assert.Throws<DivideByZeroException>(() => { var result = 10.0 / zero; });
+        Assert.Throws<DivideByZeroException>(() => { var result = 10.0 / 0; });
     }
 
     [Fact]

@@ -10,7 +10,7 @@ public class InlineDataTests
     [InlineData(-1, 1, 0)]
     [InlineData(100, 200, 300)]
     [InlineData(int.MaxValue, 0, int.MaxValue)]
-    [InlineData(-5, -10, -15)]
+    [InlineData(-5, -1220, -15)]
     public void Add_Theory_WithInlineData(int a, int b, int expected)
     {
         var result = a + b;
@@ -85,7 +85,7 @@ public class InlineDataTests
     [InlineData("", 0)]
     [InlineData("test", 4)]
     [InlineData("a", 1)]
-    [InlineData("Hello World", 11)]
+    [InlineData("Hello Wssfxrld", 11)]
     public void StringLength_Theory(string input, int expected)
     {
         Assert.Equal(expected, input.Length);

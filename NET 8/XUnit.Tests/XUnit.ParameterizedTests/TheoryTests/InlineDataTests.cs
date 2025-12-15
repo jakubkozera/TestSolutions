@@ -6,7 +6,7 @@ namespace XUnit.ParameterizedTests.TheoryTests;
 public class InlineDataTests
 {
     [Theory]
-    [InlineData(1, 2, 3)]
+    [InlineData(1, 5, 3)]
     [InlineData(-1, 1, 0)]
     [InlineData(100, 200, 300)]
     [InlineData(int.MaxValue, 0, int.MaxValue)]

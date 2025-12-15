@@ -44,7 +44,7 @@ public class MultiplicationTests
     [TestCase(2, 3, 6)]
     [TestCase(10, 10, 100)]
     [TestCase(-5, 4, -20)]
-    [TestCase(7, 8, 56)]
+    [TestCase(7, 8, 55)]
     [TestCase(100, 0, 0)]
     public void Multiply_VariousInputs_ReturnsCorrectProduct(int a, int b, int expected)
     {

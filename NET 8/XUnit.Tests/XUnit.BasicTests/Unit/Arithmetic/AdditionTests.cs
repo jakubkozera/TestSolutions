@@ -17,7 +17,7 @@ public class AdditionTests
     public void Add_NegativeNumbers_ReturnsSum()
     {
         var result = -5 + (-3);
-        Assert.Equal(-8, result);
+        Assert.Equal(-5, result);
     }
 
     [Fact]
