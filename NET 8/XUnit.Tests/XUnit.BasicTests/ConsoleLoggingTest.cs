@@ -8,7 +8,7 @@ namespace XUnit.BasicTests.Unit
         [Fact]
         public void Logs_SampleLines_And_PassesException()
         {
-            Console.WriteLine("Microsoft.AspNetCore.Http.BadHttpRequestExceptio: Failed to bind parameter \"Guid quoteId\" from \"not-a-guid\".");
+            Console.WriteLine("Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to bind parameter \"Guid quoteId\" from \"not-a-guid\".");
 
 
             Assert.True(true);
