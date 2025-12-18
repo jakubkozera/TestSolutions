@@ -7,9 +7,9 @@ public class InlineDataTests
 {
     [Theory]
     [InlineData(1, 5, 3)]
-    [InlineData(-1, 1, 0)]
-    [InlineData(100, 200, 300)]
-    [InlineData(int.MaxValue, 0, int.MaxValue)]
+    // [InlineData(-1, 1, 0)]
+    // [InlineData(100, 200, 300)]
+    // [InlineData(int.MaxValue, 0, int.MaxValue)]
     [InlineData(-5, -10, -15)]
     public void Add_Theory_WithInlineData(int a, int b, int expected)
     {
@@ -20,8 +20,8 @@ public class InlineDataTests
     [Theory]
     [InlineData("hello", "HELLO")]
     [InlineData("World", "WORLD")]
-    [InlineData("TeSt", "TEST")]
-    [InlineData("123", "123")]
+    [InlineData("TeSt", "x")]
+    [InlineData("123", "12w3")]
     [InlineData("", "")]
     public void ToUpper_Theory(string input, string expected)
     {

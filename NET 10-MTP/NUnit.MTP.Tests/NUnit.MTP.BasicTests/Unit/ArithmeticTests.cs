@@ -38,7 +38,7 @@ public class ArithmeticTests
     public void Divide_Numbers_ReturnsQuotient()
     {
         var result = 10 / 2;
-        Assert.That(result, Is.EqualTo(5));
+        Assert.That(result, Is.EqualTo(3));
     }
 
     [Test]
